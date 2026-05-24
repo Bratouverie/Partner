@@ -11,7 +11,7 @@ const advantages = [
 ];
 
 const stats = [
-  { value: 1000, suffix: "+", label: "Трудоустроено специалистов" },
+  { value: 10000, suffix: "+", label: "Трудоустроено специалистов" },
   { value: 50, suffix: "+", label: "Активных партнёров по РФ" },
   { value: 3, suffix: "", label: "Крупных госпроекта" },
 ];

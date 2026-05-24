@@ -3,20 +3,20 @@ import { Phone, MessageCircle, Mail, Clock, MapPin } from "lucide-react";
 
 const contacts = [
   {
-    name: "Игорь",
-    phone: "+7 (984) 262-09-36",
-    phoneLink: "tel:+79842620936",
-    telegram: "@bratoveriye_snb_igor",
-    telegramLink: "https://t.me/bratoveriye_snb_igor",
-    whatsapp: "https://wa.me/79842620936",
+    name: "Николай (специалист)",
+    phone: "+7 (922) 312-07-35",
+    phoneLink: "tel:+79223120735",
+    telegram: "@nikolay_snb",
+    telegramLink: "https://t.me/nikolay_snb",
+    whatsapp: "https://wa.me/79223120735",
   },
   {
-    name: "Яков",
-    phone: "+7 (919) 107-22-44",
-    phoneLink: "tel:+79191072244",
-    telegram: "@bratoveriye_snb_yakov",
-    telegramLink: "https://t.me/bratoveriye_snb_yakov",
-    whatsapp: "https://wa.me/79191072244",
+    name: "Виктор",
+    phone: "+7 (922) 312-07-35",
+    phoneLink: "tel:+79223120735",
+    telegram: "@viktor_snb",
+    telegramLink: "https://t.me/viktor_snb",
+    whatsapp: "https://wa.me/79223120735",
   },
 ];
 
@@ -68,8 +68,8 @@ export default function ContactsSection() {
           >
             <p className="font-heading font-bold text-lg text-foreground">Общие контакты</p>
             <div className="mt-4 space-y-3">
-              <a href="mailto:partners@bratoveriye-snb.ru" className="flex items-center gap-3 text-sm text-foreground hover:text-primary transition">
-                <Mail className="w-4 h-4 text-primary" /> partners@bratoveriye-snb.ru
+              <a href="mailto:contact@bratouverie.ru" className="flex items-center gap-3 text-sm text-foreground hover:text-primary transition">
+                <Mail className="w-4 h-4 text-primary" /> contact@bratouverie.ru
               </a>
               <div className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Clock className="w-4 h-4 text-primary" /> Пн-Пт: 09:00-18:00, Сб: 10:00-16:00
