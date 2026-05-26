@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   const scrollTo = (id) => {
     const el = document.querySelector(id);
@@ -35,6 +37,8 @@ export default function Footer() {
                   {l.label}
                 </button>
               ))}
+              <Link to="/about" className="block text-sm text-background/60 hover:text-background transition">О компании</Link>
+              <Link to="/contact" className="block text-sm text-background/60 hover:text-background transition">Контакты</Link>
             </div>
           </div>
 
